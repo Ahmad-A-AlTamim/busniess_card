@@ -14,7 +14,7 @@ class MainActivity extends StatelessWidget {
       ),
       height: 60,
       margin: const EdgeInsets.fromLTRB(30, 10, 30, 0),
-      padding: const EdgeInsets.fromLTRB(25, 0, 10, 0),
+      padding: const EdgeInsets.fromLTRB(25, 0, 1, 0),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.center,
@@ -91,26 +91,6 @@ class MainActivity extends StatelessWidget {
               icon: Icons.email,
               text: 'ahmadabedtamim@gmail.com',
             ),
-            Card(
-              margin: const EdgeInsets.symmetric(horizontal: 30, vertical: 15),
-              shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(20)),
-              color: Colors.white,
-              child: const ListTile(
-                leading: Icon(
-                  Icons.abc,
-                  size: 30,
-                  color: Colors.red,
-                ),
-                title: Text(
-                  "text",
-                  style: TextStyle(
-                    fontSize: 18,
-                    fontWeight: FontWeight.w500,
-                  ),
-                ),
-              ),
-            )
           ],
         ),
       ),
